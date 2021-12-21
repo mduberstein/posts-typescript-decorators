@@ -4,7 +4,7 @@ export function ParameterDecorator(
     parameterIndex: number,
 ) {
     console.log(
-        `Decorating parameter ${propertyKey}` +
+        `Decorating parameter ${String(propertyKey)}` +
         ` (index ${parameterIndex})` +
         ` from ${target.constructor.name}`,
     );

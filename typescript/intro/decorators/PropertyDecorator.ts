@@ -3,7 +3,7 @@ export function PropertyDecorator(
     propertyKey: string | symbol,
 ) {
     console.log(
-        `Decorating property ${propertyKey}` +
+        `Decorating property ${String(propertyKey)}` +
         ` from ${target.constructor.name}`,
     );
 }

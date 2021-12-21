@@ -20,7 +20,7 @@ class Demo {
 
     @MethodDecorator
     public writeGreeting(
-        @ParameterDecorator public greeting: string = "Hello, world",
+        @ParameterDecorator greeting: string = "Hello, world",
     ) {
         console.log(greeting);
     }

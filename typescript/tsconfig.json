@@ -2,6 +2,8 @@
   "compilerOptions": {
     "target": "ESNext",
     "experimentalDecorators": true,
-    "emitDecoratorMetadata": true
+    "emitDecoratorMetadata": true,
+    "outDir": "out",
+    "sourceMap":true,
   }
 }

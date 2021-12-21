@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": false,
+    "outDir": "out",
+    "sourceMap":true,
+    "module":"CommonJS"
+  },
+  "include": ["./**/*.ts"]
+}
