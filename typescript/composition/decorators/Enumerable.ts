@@ -9,7 +9,7 @@ export function Enumerable(enumerable: boolean = true) {
         descriptor: PropertyDescriptor,
     ) {
         console.log(
-            `Making ${propertyKey}` +
+            `Making ${String(propertyKey)}` +
             ` ${enumerable ? "" : "non-"}enumerable`,
         );
         descriptor.enumerable = enumerable;

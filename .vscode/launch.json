@@ -5,18 +5,18 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "pwa-node",
-            "request": "launch",
-            "name": "intro main.ts",
-            "skipFiles": [
-                "<node_internals>/**"
-            ],
-            "preLaunchTask": "tsc: build - typescript/intro/tsconfig.json",
-            // "program": "${workspaceFolder}\\typescript\\out\\intro\\main.js",
-            "program":"${workspaceFolder}\\typescript\\intro\\main.ts",
-            "outFiles": [
-                "${workspaceFolder}/**/*.js"
-            ]
+          "type": "pwa-node",
+          "request": "launch",
+          "name": "intro main.ts",
+          "skipFiles": [
+              "<node_internals>/**"
+          ],
+          "preLaunchTask": "tsc: build - typescript/intro/tsconfig.json",
+          // "program": "${workspaceFolder}\\typescript\\out\\intro\\main.js",
+          "program":"${workspaceFolder}\\typescript\\intro\\main.ts",
+          "outFiles": [
+              "${workspaceFolder}/**/*.js"
+          ]
         },
         {
           "type": "pwa-node",
@@ -32,6 +32,20 @@
           "outFiles": [
               "${workspaceFolder}/**/*.js"
           ]
-      }
+        },
+        {
+          "type": "pwa-node",
+          "request": "launch",
+          "name": "composition main.ts",
+          "skipFiles": [
+              "<node_internals>/**"
+          ],
+          "preLaunchTask": "tsc: build - typescript/composition/tsconfig.json",
+          // "program": "${workspaceFolder}\\typescript\\composition\\out\\main.js",
+          "program":"${workspaceFolder}\\typescript\\composition\\main.ts",
+          "outFiles": [
+              "${workspaceFolder}/**/*.js"
+          ]
+        }
     ]
 }
