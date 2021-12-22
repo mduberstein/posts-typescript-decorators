@@ -7,7 +7,7 @@
         {
             "type": "pwa-node",
             "request": "launch",
-            "name": "Launch intro main.ts",
+            "name": "intro main.ts",
             "skipFiles": [
                 "<node_internals>/**"
             ],
@@ -17,6 +17,21 @@
             "outFiles": [
                 "${workspaceFolder}/**/*.js"
             ]
-        }
+        },
+        {
+          "type": "pwa-node",
+          "request": "launch",
+          "name": "factories other-main.ts",
+          "skipFiles": [
+              "<node_internals>/**"
+          ],
+          "preLaunchTask": "tsc: build - typescript/factories/tsconfig.json",
+          // "program": "${workspaceFolder}\\typescript\\factories\\out\\main.js",
+          // "program":"${workspaceFolder}\\typescript\\factories\\main.ts",
+          "program":"${workspaceFolder}\\typescript\\factories\\other-main.ts",
+          "outFiles": [
+              "${workspaceFolder}/**/*.js"
+          ]
+      }
     ]
 }
