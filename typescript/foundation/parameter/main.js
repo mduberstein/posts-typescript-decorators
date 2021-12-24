@@ -21,3 +21,4 @@ __decorate([
     __param(1, LogParameter)
 ], ParameterExample.prototype, "logThis", null);
 const demoParameter = new ParameterExample();
+//# sourceMappingURL=main.js.map

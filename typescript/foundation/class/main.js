@@ -13,3 +13,4 @@ ClassExample = __decorate([
     LogClass
 ], ClassExample);
 const demoClass = new ClassExample();
+//# sourceMappingURL=main.js.map

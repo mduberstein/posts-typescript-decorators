@@ -17,3 +17,4 @@ __decorate([
     Enumerable
 ], Demo.prototype, "foo", null);
 const demo = new Demo();
+//# sourceMappingURL=main.js.map

@@ -6,6 +6,7 @@ node_modules
 package.json
 yarn.lock
 typescript/**/*.js
+typescript/**/*.js.map
 scratch.*
 
 # Everything below pulled directly from

@@ -17,3 +17,4 @@ __decorate([
     LogProperty
 ], PropertyExample.prototype, "greeting", void 0);
 const demoExample = new PropertyExample();
+//# sourceMappingURL=main.js.map

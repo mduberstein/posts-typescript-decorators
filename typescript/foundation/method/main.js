@@ -18,3 +18,4 @@ __decorate([
     LogMethod
 ], MethodExample.prototype, "foo", null);
 const demoMethod = new MethodExample();
+//# sourceMappingURL=main.js.map
